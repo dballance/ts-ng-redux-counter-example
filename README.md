@@ -1,10 +1,8 @@
-# Project Name
-
-ts-ng-redux-counter-example
+# ts-ng-redux-counter-example
 
 ## Summary
 
-[Redux] (https://github.com/rackt/redux) counter example implemented in Typescript 1.7 and Angular. Compiled to ES5.
+[Redux] (https://github.com/rackt/redux) counter example implemented in Typescript 1.7 and Angular 1.4+. Compiled to ES5.
 
 ## Installation
 
