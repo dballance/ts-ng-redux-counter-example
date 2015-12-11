@@ -14,6 +14,10 @@ tsd install
 npm start
 ```
 
+### IMPORTANT!!!
+May require you to recompile ng-redux to es2015. 
+Also dependant on [this pull request] (https://github.com/wbuchwalter/ng-redux/pull/45) being merged or implemented locally.
+
 ## Credits
 
 Credits to [@wbuchwalter/ng-redux] (https://github.com/wbuchwalter/ng-redux) for inspiration. 
