@@ -1,4 +1,4 @@
-declare var require;
+declare var require: any;
 import * as CounterActions from "../actions/counter";
 import * as ngRedux from "ng-redux";
 

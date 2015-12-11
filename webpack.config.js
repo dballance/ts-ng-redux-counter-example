@@ -2,10 +2,10 @@ var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
+
 module.exports = {  
   entry: {
-      app: ['./app.ts'],
-      //vendor: ['jquery', 'angular', 'redux', 'ng-redux']
+      app: ['./app.ts']
     },
   devtool: 'source-map',
   output: {
@@ -18,7 +18,7 @@ module.exports = {
       template: './index.html',
       inject: 'body'
     }),
-    //new webpack.NoErrorsPlugin()
+    new webpack.NoErrorsPlugin()
   ],
   resolve: {
     extensions: ['', '.webpack.js', '.web.js', '.ts', '.js']
@@ -26,7 +26,8 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.ts$/, loader: 'ts' },
-      { test: /\.html$/, loader: "html"}
+      { test: /\.html$/, loader: "html"},
+      { test: /\.css$/, loader: "style-loader!css-loader" }, 
     ]
   },
  node: {
