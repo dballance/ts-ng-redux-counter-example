@@ -15,7 +15,7 @@ npm start
 ```
 
 ### IMPORTANT!!!
-May require you to recompile ng-redux to es2015. 
+May require you to run ng-redux via babel with es2015 preset.
 Also dependant on [this pull request] (https://github.com/wbuchwalter/ng-redux/pull/45) being merged or implemented locally.
 
 ## Credits
