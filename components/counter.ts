@@ -1,6 +1,6 @@
 declare var require;
 import * as CounterActions from "../actions/counter";
-import { INgRedux } from "ng-redux";
+import * as ngRedux from "ng-redux";
 
 
 export function counter() {
@@ -14,9 +14,8 @@ export function counter() {
 }
 
 class CounterController {
-	constructor($ngRedux: INgRedux, $scope: ng.IScope) {
+	constructor($ngRedux: ngRedux.INgRedux, $scope: ng.IScope) {
 		const unsubscribe = $ngRedux.connect(this.mapStateToThis, CounterActions)(this);
-		console.log(this);
 		$scope.$on("$destroy", unsubscribe);
 	}
 	
