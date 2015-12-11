@@ -10,9 +10,11 @@ ts-ng-redux-counter-example
 
 ### npm
 
-`npm install`
-`tsd install`
-`npm start`
+```
+npm install
+tsd install
+npm start
+```
 
 ## Credits
 
