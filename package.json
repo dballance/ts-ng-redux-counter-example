@@ -17,10 +17,11 @@
     "angular": "^1.4.8",
     "es6-shim": "^0.33.13",
     "jquery": "^2.1.4",
-    "ng-redux": "^3.1.1",
+    "ng-redux": "^3.3.0",
     "redux": "^3.0.0"
   },
   "devDependencies": {
+    "babel-core": "^6.3.13",
     "css-loader": "^0.23.0",
     "html-loader": "^0.3.0",
     "html-webpack-plugin": "^1.6.1",
